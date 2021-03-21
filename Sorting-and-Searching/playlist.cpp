@@ -12,7 +12,7 @@ int32_t main(){
 	cin>>n;
 	vector<int> a(n+1);
 	rep(i,n)cin>>a[i+1];
-	int tot=0,tart=1;
+	int tot=0,start=1;
 	map<int,int> vis;
 	for(int i=1;i<=n;i++){
 		if(!vis[a[i]] || vis[a[i]]<start){
